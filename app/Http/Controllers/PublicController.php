@@ -11,4 +11,9 @@ class PublicController extends Controller
     {
         return view('welcome');
     }    
+
+    public function detail()
+    {
+        return view('detailPage');
+    }        
 }
